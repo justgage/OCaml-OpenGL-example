@@ -1,0 +1,384 @@
+"src/main.ml" 4 41 45 "src/main.ml" 4 41 52
+type(
+  unit -> unit
+)
+ident(
+  def display "src/main.ml" 7 100 100 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 4 41 53 "src/main.ml" 4 41 55
+type(
+  unit
+)
+"src/main.ml" 4 41 58 "src/main.ml" 4 41 64
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/main.ml" 4 41 65 "src/main.ml" 4 41 66
+type(
+  int
+)
+"src/main.ml" 4 41 58 "src/main.ml" 4 41 66
+type(
+  unit
+)
+"src/main.ml" 4 41 53 "src/main.ml" 4 41 66
+type(
+  unit -> unit
+)
+"src/main.ml" 7 100 104 "src/main.ml" 7 100 112
+type(
+  key:'a -> x:'b -> y:'c -> unit
+)
+ident(
+  def keyboard "src/main.ml" 10 163 163 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 7 100 126 "src/main.ml" 7 100 132
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/main.ml" 7 100 133 "src/main.ml" 7 100 134
+type(
+  int
+)
+"src/main.ml" 7 100 126 "src/main.ml" 7 100 134
+type(
+  unit
+)
+"src/main.ml" 7 100 121 "src/main.ml" 7 100 134
+type(
+  y:'c -> unit
+)
+type(
+  'c
+)
+ident(
+  def y "src/main.ml" 7 100 126 "src/main.ml" 7 100 134
+)
+"src/main.ml" 7 100 118 "src/main.ml" 7 100 134
+type(
+  x:'b -> y:'c -> unit
+)
+type(
+  'b
+)
+ident(
+  def x "src/main.ml" 7 100 121 "src/main.ml" 7 100 134
+)
+"src/main.ml" 7 100 113 "src/main.ml" 7 100 134
+type(
+  key:'a -> x:'b -> y:'c -> unit
+)
+type(
+  'a
+)
+ident(
+  def key "src/main.ml" 7 100 118 "src/main.ml" 7 100 134
+)
+"src/main.ml" 10 163 167 "src/main.ml" 10 163 171
+type(
+  display_func:(unit -> unit) ->
+  keyboard_func:(key:int -> x:int -> y:int -> unit) -> unit
+)
+ident(
+  def init "src/main.ml" 28 559 559 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 15 238 240 "src/main.ml" 15 238 246
+type(
+  string array -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/main.ml" 15 238 247 "src/main.ml" 15 238 249
+type(
+  (string array -> unit) -> string array -> unit
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"src/main.ml" 15 238 250 "src/main.ml" 15 238 256
+type(
+  argv:string array -> string array
+)
+ident(
+  ext_ref G.init
+)
+"src/main.ml" 15 238 257 "src/main.ml" 15 238 261
+type(
+  string array
+)
+"src/main.ml" 15 238 250 "src/main.ml" 15 238 261
+call(
+  stack
+)
+type(
+  string array
+)
+"src/main.ml" 15 238 240 "src/main.ml" 15 238 261
+type(
+  unit
+)
+"src/main.ml" 16 263 265 "src/main.ml" 16 263 282
+type(
+  ?double_buffer:bool ->
+  ?index:bool ->
+  ?accum:bool ->
+  ?alpha:bool ->
+  ?depth:bool ->
+  ?stencil:bool ->
+  ?multisample:bool -> ?stereo:bool -> ?luminance:bool -> unit -> unit
+)
+ident(
+  ext_ref G.initDisplayMode
+)
+"src/main.ml" 17 283 294 "src/main.ml" 17 283 298
+type(
+  bool
+)
+"src/main.ml" 18 299 318 "src/main.ml" 18 299 322
+type(
+  bool
+)
+"src/main.ml" 18 299 323 "src/main.ml" 18 299 325
+type(
+  unit
+)
+"src/main.ml" 16 263 265 "src/main.ml" 18 299 325
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 19 327 329 "src/main.ml" 19 327 349
+type(
+  x:int -> y:int -> unit
+)
+ident(
+  ext_ref G.initWindowPosition
+)
+"src/main.ml" 19 327 353 "src/main.ml" 19 327 356
+type(
+  int
+)
+"src/main.ml" 19 327 360 "src/main.ml" 19 327 363
+type(
+  int
+)
+"src/main.ml" 19 327 329 "src/main.ml" 19 327 363
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 20 365 367 "src/main.ml" 20 365 383
+type(
+  w:int -> h:int -> unit
+)
+ident(
+  ext_ref G.initWindowSize
+)
+"src/main.ml" 20 365 387 "src/main.ml" 20 365 390
+type(
+  int
+)
+"src/main.ml" 20 365 394 "src/main.ml" 20 365 397
+type(
+  int
+)
+"src/main.ml" 20 365 367 "src/main.ml" 20 365 397
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 21 399 401 "src/main.ml" 21 399 407
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/main.ml" 21 399 408 "src/main.ml" 21 399 410
+type(
+  (int -> unit) -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( @@ )
+)
+"src/main.ml" 21 399 411 "src/main.ml" 21 399 425
+type(
+  title:string -> int
+)
+ident(
+  ext_ref G.createWindow
+)
+"src/main.ml" 21 399 426 "src/main.ml" 21 399 438
+type(
+  string
+)
+"src/main.ml" 21 399 411 "src/main.ml" 21 399 438
+call(
+  stack
+)
+type(
+  int
+)
+"src/main.ml" 21 399 401 "src/main.ml" 21 399 438
+type(
+  unit
+)
+"src/main.ml" 22 440 442 "src/main.ml" 22 440 455
+type(
+  cb:(unit -> unit) -> unit
+)
+ident(
+  ext_ref G.displayFunc
+)
+"src/main.ml" 22 440 460 "src/main.ml" 22 440 472
+type(
+  unit -> unit
+)
+ident(
+  int_ref display_func "src/main.ml" 11 172 176 "src/main.ml" 24 510 526
+)
+"src/main.ml" 22 440 442 "src/main.ml" 22 440 472
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 23 474 476 "src/main.ml" 23 474 490
+type(
+  cb:(key:int -> x:int -> y:int -> unit) -> unit
+)
+ident(
+  ext_ref G.keyboardFunc
+)
+"src/main.ml" 23 474 495 "src/main.ml" 23 474 508
+type(
+  key:int -> x:int -> y:int -> unit
+)
+ident(
+  int_ref keyboard_func "src/main.ml" 12 190 194 "src/main.ml" 24 510 526
+)
+"src/main.ml" 23 474 476 "src/main.ml" 23 474 508
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 24 510 512 "src/main.ml" 24 510 522
+type(
+  unit -> unit
+)
+ident(
+  ext_ref G.mainLoop
+)
+"src/main.ml" 24 510 523 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 24 510 512 "src/main.ml" 24 510 525
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 23 474 476 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 22 440 442 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 21 399 401 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 20 365 367 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 19 327 329 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 16 263 265 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 15 238 240 "src/main.ml" 24 510 525
+type(
+  unit
+)
+"src/main.ml" 14 213 215 "src/main.ml" 24 510 526
+type(
+  unit
+)
+"src/main.ml" 12 190 194 "src/main.ml" 24 510 526
+type(
+  keyboard_func:(key:int -> x:int -> y:int -> unit) -> unit
+)
+type(
+  key:int -> x:int -> y:int -> unit
+)
+ident(
+  def keyboard_func "src/main.ml" 14 213 215 "src/main.ml" 24 510 526
+)
+"src/main.ml" 11 172 176 "src/main.ml" 24 510 526
+type(
+  display_func:(unit -> unit) ->
+  keyboard_func:(key:int -> x:int -> y:int -> unit) -> unit
+)
+type(
+  unit -> unit
+)
+ident(
+  def display_func "src/main.ml" 12 190 194 "src/main.ml" 24 510 526
+)
+"src/main.ml" 28 559 563 "src/main.ml" 28 559 565
+type(
+  unit
+)
+"src/main.ml" 29 568 570 "src/main.ml" 29 568 574
+type(
+  display_func:(unit -> unit) ->
+  keyboard_func:(key:int -> x:int -> y:int -> unit) -> unit
+)
+ident(
+  int_ref init "src/main.ml" 10 163 167 "src/main.ml" 10 163 171
+)
+"src/main.ml" 30 575 593 "src/main.ml" 30 575 600
+type(
+  unit -> unit
+)
+ident(
+  int_ref display "src/main.ml" 4 41 45 "src/main.ml" 4 41 52
+)
+"src/main.ml" 31 601 620 "src/main.ml" 31 601 628
+type(
+  key:int -> x:int -> y:int -> unit
+)
+ident(
+  int_ref keyboard "src/main.ml" 7 100 104 "src/main.ml" 7 100 112
+)
+"src/main.ml" 29 568 570 "src/main.ml" 31 601 628
+call(
+  stack
+)
+type(
+  unit
+)

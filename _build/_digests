@@ -1,0 +1,6 @@
+"Resource: /home/justgage/Dropbox/code/ocaml/opengl/first/src/main.ml": "\141-\231\225\176D\\\151\205\230\219\252\186\207\139\029"
+"Rule: ocaml: ml -> cmo & cmi (%=src/main )": "\244\142\169\022\206\239\011\031]l\237\142\195\158\202/"
+"Rule: ocaml: cmx* & o* -> native (%=src/main )": "!l\196\014\232\193$!\200\203M\164g4\011L"
+"Rule: ocaml dependencies ml (%=src/main )": "Py\171%\213`[\183(\003;\245\198\2465\191"
+"Rule: ocaml: cmo* -> cma (%=src/main )": "6u\199\023\227{B\234\236/\156T\249\139\030\007"
+"Rule: ocaml: ml & cmi -> cmx & o (%=src/main )": "\176'y\249\148)\014W \169\020\179\142\028\141\r"
